@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+
+    <!-- fuentes link externo -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- animation css externo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- css interno -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pizza Andando</title>
+</head>
+
+<body>
+    <header id="hola">
+        <div class="contenedor">
+            <div class="hero ">
+                <div class="text-center">
+                    <h1 class="Color-1 display-1 sombra titulos wow  animate__animated animate__bounceInLeft">Pizza Andando</h1>
+
+                    <div class="arrow">
+                        <a href="#masa"><i class="fas fa-chevron-circle-down fa-3x Color-4 wow  animate__animated animate__bounceInDown animate__infinite	infinite"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="masa" class="Bg-4">
+            <div class="contenedor">
+                <h2 class="display-3 text-center titulos mt-5 wow  animate__animated animate__bounceInRight">Elige tu masa:</h2>
+
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 wow  animate__animated animate__bounceInLeft">
+                            <a href="#salsa">
+                                <img src="../img/masa_normal.jpg" alt="masa_normal" class="img-fluid sombra-caja">
+                            </a>
+                            <p>Normal</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 wow  animate__animated animate__fadeInLeft animate__delay-1s">
+                            <a href="#salsa">
+                                <img src="../img/masa_pan_pita.jpg" alt="masa_pan" class="img-fluid sombra-caja">
+                            </a>
+                            <p>Pan pita</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="salsa" class="Bg-3">
+            <div class="contenedor">
+                <div class="contenedor">
+                    <h2 class="display-3 text-center titulos mt-5 wow  animate__animated animate__bounceInDown">Elige tu salsa:</h2>
+
+                    <div class="container mt-5">
+                        <div class="row ">
+                            <div class="col-sm-12 col-md-6 wow  animate__animated animate__bounceInLeft animate__delay-1s">
+                                <a href="#ingredientes">
+                                    <img src="../img/tomate.jpg" alt="marinara" class="img-fluid sombra-caja">
+                                </a>
+                                <p>Salsa marinara</p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 wow  animate__animated animate__bounceInLeft">
+                                <a href="#ingredientes">
+                                    <img src="../img/mozarella.jpg" alt="salsa_mozzarella"
+                                        class="img-fluid sombra-caja">
+                                </a>
+                                <p>Salsa mozzarella</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ingredientes" class="Bg-4">
+            <div class="contenedor-ing">
+                <div class="contenedor">
+                    <h2 class="display-3 text-center titulos mt-5 wow  animate__animated animate__bounceInRight">Elige tus ingredientes:</h2>
+
+                    <div class="container mt-5">
+                        <div class="row ">
+                            <div class="col-sm-12 col-md-6 col-lg-4 wow  animate__animated animate__zoomIn">
+                                <a href="#gracias">
+                                    <img src="../img/ingr_champiniones.jpg" alt="champs" class="img-fluid sombra-caja">
+                                </a>
+                                <p>Champiniones</p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 offset-4 wow  animate__animated animate__zoomIn animate__delay-1s">
+                                <a href="#gracias">
+                                    <img src="../img/ingr_espinacas.jpg" alt="salsa_mozzarella"
+                                        class="img-fluid sombra-caja">
+                                </a>
+                                <p>Espinacas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-sm-12 col-md-6 col-lg-4 wow  animate__animated animate__zoomIn animate__delay-2s">
+                                <a href="#gracias">
+                                    <img src="../img/ingr_jamon.jpg" alt="jamon" class="img-fluid sombra-caja">
+                                </a>
+                                <p>Jamon</p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 offset-4 wow  animate__animated animate__zoomIn animate__delay-3s">
+                                <a href="#gracias">
+                                    <img src="../img/ingr_pimientos.jpg" alt="pimiento" class="img-fluid sombra-caja">
+                                </a>
+                                <p>Pimiento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="gracias" class="Bg-3">
+            <div class="contenedor">
+                <div>
+                    <h3 class="pt-5 display-2 text-center titulos">Gracias! <br>
+                        Hemos tomado tu orden!</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por: Daniela Esq</p>
+    </footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+
+<script src="../js/app.js"></script>
+
+</html>
